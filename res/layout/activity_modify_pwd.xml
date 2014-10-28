@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrayColor"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入原密码"
+            android:textColorHint="@color/darkGrayColor"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="输入新密码"
+            android:textColorHint="@color/darkGrayColor"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightGrayColor" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请再次确认新密码"
+            android:textColorHint="@color/darkGrayColor"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:height="40dp"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:width="230dp" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/tour_group_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_green"
+            android:gravity="center"
+            android:text="旅游团"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+
+        <Button
+            android:id="@+id/free_line_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="自由行"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+
+        <Button
+            android:id="@+id/hot_week_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="本周热卖"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+        
+        <Button
+            android:id="@+id/cruise_ship_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="游轮精选"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/oration_view_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

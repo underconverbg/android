@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lawngreen"
+    android:padding="5dp"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+       	android:background="@color/darklawngreen"
+       	android:orientation="horizontal"
+        >
+      <ImageButton
+             android:id="@+id/search_img_btn"
+            android:layout_width="30dip"
+        	android:layout_height="25dp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_gravity="center_vertical"
+        	android:background="@drawable/seach_icon"
+          />
+
+    <EditText
+        android:id="@+id/search_title_edit_text"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/darklawngreen"
+        android:hint="输入目的地/商家/资讯关键字"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+     <Button
+        android:id="@+id/search_title_cancel_btn"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/lawngreen"
+        android:textSize="15dp" 
+        android:textColor="@color/white"
+        android:text="取消"
+        android:visibility="invisible"
+        />
+    
+	</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alliancemacao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.HomeActivity" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.alliancemacao.ui.activity.WelComeAtivity"
+            android:label="@string/title_activity_wel_come_ativity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.information.DetailsOfInformationActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.dynamic.DetailsOfDynamicActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.fragment.JoinActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalCollectionActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalAttentionActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalInformationActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalAgeActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalNickNameActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.operator.AboutOperator" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalModifyPassWordActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalPushSetActivity" >
+        </activity>
+        <activity android:name="com.alliancemacao.ui.activity.personal.PersonalNoSoundActivity" >
+        </activity>
+         <activity android:name="com.alliancemacao.ui.activity.search.SearchResultActivity" >
+        </activity>
+           <activity android:name="com.alliancemacao.ui.activity.information.InformationClassifyActivity" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>

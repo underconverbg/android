@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">乐心健康</string>
+    <string name="carrier">lifesense</string>
+    <string name="action_settings">设置</string>
+    <string name="login">登录</string>
+    <string name="login_btn">登录</string>
+    <string name="login_progress">登录中..</string>
+    <string name="login_data_load">加载数据..</string>
+    <string name="register">注册</string>
+    <string name="find_password">找回密码</string>
+    <string name="cell_phone_number">手机号码</string>
+    <string name="cell_email">邮箱地址</string>
+    <string name="change_old_password">请输入旧密码</string>
+    <string name="change_new_password">请输入新密码</string>
+    <string name="change_new_password_again">再次输入密码</string>
+    <string name="password">密码</string>
+    <string name="forget_the_password">忘记密码</string>
+    <string name="remember_the_password">记住密码</string>
+    <string name="Automatic_login">自动登录</string>
+    <string name="forget_the_password_ok">密码修改成功</string>
+    <string name="weibo_login_text">微博登录</string>
+    <string name="qq_login_text">QQ登录</string>
+    <string name="weibo_binding_text">微博账号绑定</string>
+    <string name="qq_binding_text">QQ账号绑定</string>
+    <string name="next">下一步</string>
+    <string name="sendemail">发送</string>
+    <string name="password_ok">确定</string>
+    <string name="user">用户</string>
+    <string name="user_manage">用户管理</string>
+    <string name="user_agreement_text">我已看过并同意乐心健康</string>
+    <string name="user_agreement_context">《用户协议》</string>
+    <string name="send_verification_code">发送验证码</string>
+    <string name="send_verificationemail_code">注册账号</string>
+    <string name="send_verification_code_for">我们将发送验证码到：</string>
+    <string name="send_verification_email_for">注册的账号为：</string>
+    <string name="verification_code_tips">验证码已发送到</string>
+    <string name="verification_code_input">请输入短信中的验证码</string>
+    <string name="verification_email_code_input">请输入邮件中的验证码</string>
+    <string name="send_again">重新发送</string>
+    <string name="send_again_wait">秒后重新发送</string>
+    <string name="set_up_password">请输入密码</string>
+    <string name="affirm_password">请输入确认密码</string>
+    <string name="set_up_password_bt">设置</string>
+    <string name="set_new_password">设置</string>
+    <string name="set_up_password_tips">请输入正确的验证码</string>
+    <string name="login_username_blank_tips">请输入手机号码</string>
+    <string name="login_username_blank_email_tips">请输入邮箱地址</string>
+    <string name="change_password_old_tips">请输入旧密码</string>
+    <string name="change_password_new_tips">请输入新密码</string>
+    <string name="change_password_new_again_tips">请输入确认密码</string>
+    <string name="password_small_old">请输入密码长度为6-16位字符</string>
+    <string name="old_new_same">新密码不能与旧密码相同</string>
+    <string name="change_password_new_disaffinity_tips">两次输入的密码不一致</string>
+    <string name="change_password_error_tips">密码错误</string>
+    <string name="change_password_ok_tips">密码修改成功</string>
+    <string name="login_username_long_tips">请输入11位手机号码</string>
+    <string name="login_username_long_email_tips">邮箱格式错误</string>
+    <string name="login_username_true_tips">请输入正确的手机号码</string>
+    <string name="login_password_blank_tips">请输入密码</string>
+    <string name="login_password_long_tips">请使用6-16个字符作为密码</string>
+    <string name="login_password_distinct_tips">两次密码输入不相同</string>
+    <string name="login_input_exp_tips">用户名或密码错误,请重新输入</string>
+    <string name="login_input_exist_tips">用户名已存在,请重新输入</string>
+    <string name="login_input_not_exist_tips">用户名不存在,请重新输入</string>
+    <string name="login_input_not_exist_tips_emailok">邮件已成功发送</string>
+    <string name="login_input_not_exist_tips_emailerror">用户名不存在</string>
+    <string name="login_net_exp_tips">服务器或网络错误,请稍候重试</string>
+    <string name="login_timeout_tips">登录超时,请稍候重试</string>
+    <string name="registration_no_tips">注册失败,请稍候重试</string>
+    <string name="has_new_version">发现新版本，是否更新？</string>
+    <string name="currentversion">当前版本为</string>
+    <string name="click_update">发现新版本，请点击更新</string>
+    <string name="current_is_lastestversion">目前已经是最新版本</string>
+    <string name="cannot_access_lasterversion">无法获取最新版本信息</string>
+    <string name="prompt">提示</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="logout">退出</string>
+    <string name="logout_prompt">是否确认退出应用</string>
+
+    <string-array name="area_code">
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+        <item>中国 +86</item>
+    </string-array>
+
+    <string name="weight">体重</string>
+    <string name="blood_pressure">血压</string>
+    <string name="blood_pressure_shortening">血压</string>
+    <string name="blood_pressure_s">收缩压</string>
+    <string name="blood_pressure_d">舒张压</string>
+    <string name="heart_rate">心率</string>
+    <string name="sport">运动</string>
+    <string name="height">身高</string>
+    <string name="walkNumber">步数</string>
+    <string name="pace">步</string>
+    <string name="walk">漫步</string>
+    <string name="run">跑步</string>
+    <string name="kilometer">公里</string>
+    <string name="distance">距离</string>
+    <string name="exerciseTime">运动时间</string>
+    <string name="percentage">完成率</string>
+    <string name="big_calorie">大卡</string>
+    <string name="sleeplevel1">好</string>
+    <string name="sleeplevel2">一般</string>
+    <string name="sleeplevel3">差</string>
+    <string name="sleep">睡眠</string>
+    <string name="insleep">入睡时间</string>
+    <string name="outsleep">起床时间</string>
+    <string name="sleeptime">睡眠时间</string>
+    <string name="sleeplevel">睡眠质量</string>
+    <string name="weight_slim">偏瘦</string>
+    <string name="weight_normal">正常体重</string>
+    <string name="weight_fat">偏胖</string>
+    <string name="fat">肥胖</string>
+    <string name="bodyfat">脂肪率</string>
+    <string name="musclemass">肌肉</string>
+    <string name="bodywater">水分</string>
+    <string name="bone">骨头</string>
+    <string name="calorie">卡路里</string>
+    <string name="bmi">BMI</string>
+    <string name="unknown">0</string>
+    <string name="get_a_picture_of_failure">截屏获取图片失败</string>
+
+    <!-- <string name="weight">体重</string> -->
+    <string name="no_data">没有任何数据</string>
+    <string name="user_no_device">用户还未绑定任何设备!</string>
+    <string name="blood_pressure_hypopiesia">低血压</string>
+    <string name="blood_pressure_normal">正常血压</string>
+    <string name="blood_pressure_high_side">血压偏高</string>
+    <string name="blood_pressure_hypertension">高血压</string>
+    <string name="userinfo">用户信息</string>
+    <string name="mydevice">我的设备</string>
+    <string name="setting">设置</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_input_prompt1">还可以输入</string>
+    <string name="feedback_input_prompt2">字</string>
+    <string name="feedback_prompt">欢迎您提出使用乐心健康客户端的感受和建议,期待您的声音.</string>
+    <string name="feedback_confirm">提交意见反馈</string>
+    <string name="editor">编辑</string>
+    <string name="device">设备</string>
+    <string name="accept_new_data_weight">接收到新体重测量数据</string>
+    <string name="accept_new_data_pb">接收到新血压测量数据</string>
+    <string name="accept_new_data_sport">接收到新运动测量数据</string>
+    <string name="accept_new_data_height">接收到新身高测量数据</string>
+    <string name="weight_goal">目标</string>
+    <string name="goaldate">目标日期</string>
+    <string name="setstepgoalmsg">旋转圆圈设置目标步数</string>
+    <string name="setsleepgoalmsg">旋转圆圈设置目标时间</string>
+    <!-- 数据列表 -->
+    <string name="data_list">数据列表</string>
+    <string name="data_list_editor">编辑</string>
+    <string name="data_list_editor_complete">完成</string>
+    <string name="data_list_delete_data_prompt">是否确定删除该数据</string>
+    <string name="data_list_setting">编剧数据列表</string>
+    <string name="data_list_morning">早</string>
+    <string name="data_list_afternoon">下</string>
+    <string name="data_list_night">晚</string>
+    <!-- 用户信息 -->
+    <string name="user_message">用户信息</string>
+    <string name="user_name">用户名</string>
+    <string name="user_sex">性别</string>
+    <string name="user_sex_man">男</string>
+    <string name="user_sex_woman">女</string>
+    <string name="user_height">身高</string>
+    <string name="user_weigth">体重</string>
+    <string name="user_birthday">生日</string>
+    <string name="user_sportsman">运动员</string>
+    <string name="user_sportsman_true">是</string>
+    <string name="user_sportsman_false">否</string>
+    <string name="years">年</string>
+    <string name="months">月</string>
+    <string name="days">日</string>
+    <string name="hour">时</string>
+    <string name="week">周</string>
+    <string name="thisDay">本日</string>
+    <string name="thisWeek">本周</string>
+    <string name="thisMonth">本月</string>
+    <string name="thisYear">本年</string>
+    <string name="user_head_sculpture">头像设置</string>
+    <string name="user_head_photograph">拍照</string>
+    <string name="user_head_album">从相册中选取</string>
+    <string name="user_message_preserve">是否保存修改</string>
+    <string name="new_user_message_preserve">新用户保存</string>
+    <string name="new_user_message_set_msg">新用户请编辑用户信息</string>
+    <string name="user_message_name_tips">请输入用户名</string>
+    <string name="new_user_complete">完成</string>
+    <!-- 设备 -->
+    <string name="device_electricity">电量</string>
+    <string name="device_add_new_device">安装新设备</string>
+    <string name="device_recharge">充值</string>
+    <string name="device_sim">SIM卡</string>
+    <string name="device_delete_binding_relationship">是否确定删除该绑定关系</string>
+    <string name="device_removing_equipment">移除设备</string>
+    <string name="device_removing">移除</string>
+    <string name="device_unbound_prompt2">设备的绑定</string>
+    <string name="device_expire">到期</string>
+    <string name="device_unbound_confirmation">确认解除绑定</string>
+    <string name="device_no_binding">未绑定任何设备</string>
+    <string name="device_no_binding_bracelet">未绑定手环设备</string>
+    <string name="device_binding">绑定设备</string>
+    <string name="device_user_binding">用户绑定</string>
+    <string name="device_binding_ok">绑定设备完成</string>
+    <string name="device_unbound_confirmation_prompt">档案记录不会被删除.</string>
+    <string name="device_choose_mode">请根据设备通讯方式，选择设备类型 :</string>
+    <string name="device_blue">蓝牙设备</string>
+    <string name="device_wifi">网络设备</string>
+    <string name="searchdevice">正在搜索设备，请稍候</string>
+    <string name="pairBroad">配对广播</string>
+    <string name="normalBroad">正常广播</string>
+    <string name="add_device_fail">添加设备失败</string>
+    <string name="device_binding_username_tips">请输入绑定设备的用户名</string>
+    <string name="device_binding_status_tips">请使设备进入配对状态</string>
+    <string name="device_binding_repeat_tips">同一个设备不能多次配对</string>
+    <string name="device_binding_pedometer_repeat_tips">不能同时添加两个以上的计步器</string>
+    <string name="album">相册</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="ble_not_support">本设备不支持蓝牙4.0方式连接</string>
+    <string name="please_open_the_bluetooth">请打开手机蓝牙</string>
+    <string name="please_no_open_the_bluetooth">手机蓝牙未开启</string>
+    <string name="device_weighing_scale">体重秤</string>
+    <string name="device_fat_scale">脂肪秤</string>
+    <string name="device_height_appearance">身高尺</string>
+    <string name="device_pedometer">计步器</string>
+    <string name="device_waistsize_appearance">腰围尺</string>
+    <string name="device_blood_glucose_meter">血糖仪</string>
+    <string name="device_thermometer">体温计</string>
+    <string name="device_sphygmomanometer">血压计</string>
+
+    <!--  -->
+    <!-- <string name="setting_unbound">未绑定</string> -->
+    <!-- <string name="setting_phone_number">手机号码</string> -->
+    <!-- <string name="setting_email">邮箱地址</string> -->
+    <!-- <string name="party_account_binding">第三方账号绑定</string> -->
+    <string name="common_problem">常见问题</string>
+    <string name="change_password">修改密码</string>
+    <string name="score">去评分</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_util_setting">单位设置</string>
+    <string name="setting_about">关于乐心</string>
+    <string name="setting_logout">退出当前账号</string>
+    <string name="binding">绑定</string>
+    <string name="binding_mobile_phone_number">绑定手机号码</string>
+    <string name="unbound_binding">解除绑定</string>
+    <string name="unbound_binding_prompt">是否确认解除绑定?</string>
+    <string name="out_cell_phone_number"> 原手机号码</string>
+    <string name="setting_phone_password">设置手机登陆密码</string>
+    <string name="once">一次</string>
+    <string name="a_m">上午</string>
+    <string name="p_m">下午</string>
+    <string name="set_clock">设置闹钟</string>
+    <string name="clock_period">周期</string>
+    <string name="sleep_clock">手环闹钟</string>
+    <string name="Last_Measurement">上次测量时间</string>
+    <string name="set_main_page">页面设置</string>
+    <string name="set_main_not_page_cue">请显示最少一个页面.</string>
+    <string name="clock_cue_set_clock">当前设置已生效.</string>
+    <string name="clock_cue_not_set">点击手环按钮完成闹钟设置.</string>
+
+    <string name="sleep_time">睡眠时间</string>
+    <string name="sleep_time_start">开始:</string>
+    <string name="sleep_time_end">结束:</string>
+     <string name="sleep_todaynosleepdata">今日无睡眠数据</string>
+    <string name="sleep_toweeknosleepdata">本周无睡眠数据</string>
+    <string name="sleep_tomonthnosleepdata">本月无睡眠数据</string>
+    <string name="sleep_daynosleepdata">该日无睡眠数据</string>
+    <string name="sleep_weeknosleepdata">该周无睡眠数据</string>
+    <string name="sleep_monthnosleepdata">该月无睡眠数据</string>
+    <string name="sleep_deepsleep">深睡时长</string>
+    <string name="sleep_shallowsleep">浅睡时长</string>
+    <string name="sleep_wakeup">清醒时长</string>
+    <string name="sleep_wakeupTime">醒来次数</string>
+    <string name="sleep_allSleepTime">总睡眠时长</string>
+    <string name="sleep_h">小时</string>
+    <string name="sleep_min">分钟</string>
+    <string name="sleep_t">次</string>
+    <string name="sleep_clock_lost">设置冲突,保存失败.</string>
+    <string name="sleep_clock_cue">睡眠闹钟</string>
+
+    <string-array name="weekday">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+    <string-array name="montharray">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <!-- about -->
+    <string name="text_about_tip">      乐心健康是乐心医疗官方推出的智能手机版健康状况监测软件。用户使用乐心医疗电子产品测量自己体重、血压等数据，乐心医疗电子产品自动把记录到的测量数据发送给乐心健康App软件，通过对测量数据的连续跟踪监测，并以直观的图表形式展示用户健康状况，从而让用户随时随地地通过智能手机监测自己及家人的健康状况。</string>
+    <string name="text_lifesense_net">www.lifesense.com</string>
+</resources>

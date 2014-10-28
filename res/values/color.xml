@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lawngreen">#5ab855</color> <!-- 草绿色 -->
+    <color name="darklawngreen">#489a40</color> <!-- 草绿色 -->
+    <color name="lightGrayColor">#f0f0f0</color> <!-- 底灰色 -->
+    <color name="darkGrayColor">#999999</color> <!-- 深灰色 -->
+    <color name="orange">#faa700</color> <!-- 深灰色 -->
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="btntextcolor">#ff1E90FF</color> <!-- dialog中按钮字体颜色 -->
+    <color name="unblack">#e0000000</color> <!-- 黑色 -->
+    <color name="blue">#376bfb</color> <!-- 蓝色 -->
+    <color name="brown">#e9e9e5</color> <!-- 棕色 -->
+    
+
+</resources>

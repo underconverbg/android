@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrayColor"
+    android:orientation="vertical" >
+
+  	<include layout="@layout/main_title" />
+    
+   <ListView
+        android:id="@+id/personal_attention_listv"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/darkGrayColor"  
+   		 android:dividerHeight="1px"	
+         />
+
+</LinearLayout>

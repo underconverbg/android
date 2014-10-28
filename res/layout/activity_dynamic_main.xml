@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/dynamic_strategy_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_green"
+            android:gravity="center"
+            android:text="攻略"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+
+        <Button
+            android:id="@+id/dynamic_travels_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="游记"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+
+        <Button
+            android:id="@+id/dynamic_favourable_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="优惠"
+            android:textColor="@color/lawngreen"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+
+	<android.support.v4.view.ViewPager
+        android:id="@+id/dynamic_view_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+</LinearLayout>

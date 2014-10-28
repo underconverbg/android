@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrayColor"
+    android:orientation="vertical" >
+    
+    <ImageButton
+        android:id="@+id/operators_advert_imagebt"
+       	android:layout_width="wrap_content"
+       	android:layout_height="100dp"
+       	android:background="@drawable/text_operators_advert"
+       />
+
+   <ListView
+        android:id="@+id/oration_tourist_group_listv"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        />
+  
+    
+</LinearLayout>

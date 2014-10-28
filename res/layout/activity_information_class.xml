@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+	    <include layout="@layout/main_title" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/travel_mode_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text="出行方式"
+            android:textColor="@color/darkGrayColor"
+			android:background="@color/lightGrayColor"
+             />
+
+        <Button
+            android:id="@+id/starting_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1" 
+			android:background="@color/lightGrayColor"
+		    android:text="出发地"
+            android:textColor="@color/darkGrayColor"
+            />
+
+        <Button
+            android:id="@+id/destination_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:background="@color/lightGrayColor"
+            android:text="目的地"
+            android:textColor="@color/darkGrayColor"
+             />
+
+        <Button
+            android:id="@+id/travel_time_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:background="@color/lightGrayColor"
+            android:text="旅行时间"
+            android:textColor="@color/darkGrayColor"
+             />
+    </LinearLayout>
+	
+     <ListView
+        android:id="@+id/classify_information_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:dividerHeight="20dp"
+          android:divider="@color/lightGrayColor" 
+      />
+</LinearLayout>

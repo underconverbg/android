@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/atten_operators_icon"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@drawable/text_attcon_icon1" />
+
+        <TextView
+            android:id="@+id/atten_operators_name_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:text="中国康辉旅行社"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/atten_operators_btn"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/add_attention_btn"
+           />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/atten_operators_introduction_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:text="dsdsadasdasdadasdasdadadasdas" />
+
+</LinearLayout>

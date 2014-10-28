@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/registration_record_main_text"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="aaaaaaaaaaaa" />
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/gray_riaht_btn" />
+	</LinearLayout>
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/lightGrayColor"
+	    />
+</LinearLayout>

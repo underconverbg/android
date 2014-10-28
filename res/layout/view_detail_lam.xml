@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/lawngreen" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+       <ImageButton
+           android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:src="@drawable/praise_btn" />
+
+       <ImageButton
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_weight="2"
+           android:background="@color/white"
+           android:src="@drawable/collection_btn" />
+
+        <ImageButton
+            android:id="@+id/dynamic_share_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            
+            android:background="@color/white"
+            android:src="@drawable/share_btn" />
+
+        <ImageButton
+            android:id="@+id/downfile_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.8"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:src="@drawable/down_load_file" />
+    </LinearLayout>
+
+</LinearLayout>

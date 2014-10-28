@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="64dip"
+    android:layout_marginLeft="-3dip"
+    android:layout_marginRight="-3dip"
+    android:layout_weight="1"
+    android:background="@drawable/tab_indicator"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/lawngreen"
+        />
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_margin="5dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/title"
+        style="?android:attr/tabWidgetStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/lawngreen" />
+
+</LinearLayout>

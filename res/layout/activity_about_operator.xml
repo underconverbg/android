@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/about_operator_bt1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_green"
+            android:gravity="center"
+            android:text="简介"
+            android:textColor="@color/lawngreen"
+            android:textSize="14.0dip" />
+
+        <Button
+            android:id="@+id/about_operator_bt2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/usbutton_white"
+            android:gravity="center"
+            android:text="资讯"
+            android:textColor="@color/lawngreen"
+            android:textSize="14.0dip" />
+
+        <Button
+            android:background="@drawable/usbutton_white"
+            android:id="@+id/about_operator_bt3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="动态"
+            android:textColor="@color/lawngreen"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@color/lawngreen" />
+
+    <android.support.v4.view.ViewPager  
+
+        android:id="@+id/about_operator_viewpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>
