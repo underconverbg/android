@@ -34,7 +34,9 @@ public class ListViewAdapter extends BaseAdapter
         public TextView infor_price_text;
         public ImageView infor_agent_image;     
         public TextView infor_see_sum_text;
-		public LinearLayout infor_main_layout;   
+		public LinearLayout infor_main_layout;
+		public ImageView zan_framge_img;
+		public ImageView collect_framge_img;   
     }     
     
     public void initListViewAdapterCallBack(ListViewAdapterCallBack callBack)
@@ -82,7 +84,9 @@ public class ListViewAdapter extends BaseAdapter
 		            listItemView.infor_agent_image = (ImageView) convertView.findViewById(R.id.infor_agent_image);     
 		            listItemView.infor_see_sum_text= (TextView) convertView.findViewById(R.id.infor_see_sum_text);   ;
 		            listItemView.infor_main_layout= (LinearLayout) convertView.findViewById(R.id.infor_main_layout);   ;
-  
+		            listItemView.zan_framge_img= (ImageView) convertView.findViewById(R.id.zan_framge_img);   ;
+		            listItemView.collect_framge_img= (ImageView) convertView.findViewById(R.id.collect_framge_img);   ;
+
 		            
 		            listItemView.infor_image.setBackgroundResource((Integer) listItems.get(   
 		                    position).get("infor_image")); 
@@ -132,6 +136,26 @@ public class ListViewAdapter extends BaseAdapter
 		        	public void onClick(View v) 
 		        	{
 		            	myCallBack.clickMainInfo(position);
+					}
+				});
+		        
+		        listItemView.zan_framge_img.setOnClickListener(new OnClickListener() 
+		        {
+					
+					@Override
+					public void onClick(View arg0)
+					{
+						myCallBack.clickZan(position);
+					}
+				});
+		        
+		        listItemView.collect_framge_img.setOnClickListener(new OnClickListener() 
+		        {
+					
+					@Override
+					public void onClick(View arg0)
+					{
+						myCallBack.clickCollect(position);
 					}
 				});
 		        

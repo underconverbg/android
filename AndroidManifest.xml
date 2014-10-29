@@ -60,19 +60,20 @@
         </activity>
         <activity android:name="com.alliancemacao.ui.activity.information.InformationClassifyActivity" >
         </activity>
-  		<activity android:name="com.alliancemacao.ui.activity.operator.OperatorAddressActivity" >
+        <activity android:name="com.alliancemacao.ui.activity.operator.OperatorAddressActivity" >
         </activity>
         <activity android:name="com.alliancemacao.ui.activity.personal.PersonalRegistrationDetails" >
         </activity>
+
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" >
         </service>
 
-  
-        <meta-data android:name="com.baidu.lbsapi.API_KEY"
-		    android:value="SMMFQH6GvYKIPN69THXiVEXF" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="PRuPGlAzLIoCCm7sKy1PYaYy" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" >
@@ -106,8 +107,8 @@
     <!-- 允许应用读取低级别的系统日志文件 -->
     <uses-permission android:name="android.permission.READ_LOGS" >
     </uses-permission>
-    <uses-permission android:name="android.permission.WRITE_CONTACTS" /> 
-<uses-permission android:name="android.permission.WRITE_SETTINGS" /> 
-<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
 
 </manifest>
