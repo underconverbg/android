@@ -51,6 +51,7 @@ public class AboutOperator extends Activity
      private final static int RETURN_TO_INFOR_DETAILS = 7;
      private final static int RETURN_TO_DYNAMIC_DETAILS = 8;
      private final static int TAKE_CALL = 9;
+	private static final int BAI_MAP = 10;
 
 
 	View page01 = null;
@@ -59,6 +60,7 @@ public class AboutOperator extends Activity
 	
 	//商户介绍部分
 	private LinearLayout telLinearLayout;
+	private LinearLayout addLayout;
 	
 	//资讯部分
 	private ListView informationListView;   
@@ -331,6 +333,12 @@ public class AboutOperator extends Activity
 		            	    intent3.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
 		            	    startActivity(intent3);
 		            		break;
+		            		
+		            	case AboutOperator.BAI_MAP:
+		            		Intent intent4 = new Intent();
+		            		intent4.setClass(AboutOperator.this,OperatorAddressActivity.class);
+		    				startActivity(intent4);
+		            		break;
 
 		             }
 		             super.handleMessage(msg);
@@ -402,6 +410,8 @@ public class AboutOperator extends Activity
 		private void initIntroduce(View view)
 		{
 			telLinearLayout = (LinearLayout) view.findViewById(R.id.operator_tel_layout);
+			addLayout = (LinearLayout) view.findViewById(R.id.operator_add_layout);
+			
 			telLinearLayout.setOnClickListener(new OnClickListener() 
 			{
 				
@@ -411,6 +421,18 @@ public class AboutOperator extends Activity
 					   Message message = new Message();
                        message.what = AboutOperator.TAKE_CALL;
                        handler.sendMessage(message);					
+				}
+			});
+			
+			addLayout.setOnClickListener(new OnClickListener()
+			{
+				
+				@Override
+				public void onClick(View v) 
+				{
+					   Message message = new Message();
+                       message.what = AboutOperator.BAI_MAP;
+                       handler.sendMessage(message);								
 				}
 			});
 		}

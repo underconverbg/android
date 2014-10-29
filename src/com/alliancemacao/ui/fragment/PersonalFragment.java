@@ -16,12 +16,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.alliancemacao.ui.activity.personal.PersonalAttentionActivity;
 import com.alliancemacao.ui.activity.personal.PersonalCollectionActivity;
 import com.alliancemacao.ui.activity.personal.PersonalInformationActivity;
+import com.alliancemacao.ui.activity.personal.PersonalRegistrationDetails;
 import com.alliancemacao.ui.view.personalcenter.PersonalCenterRegistrationRecordListViewAdapter;
 import com.example.alliancemacao.R;
 
@@ -32,6 +34,8 @@ public class PersonalFragment extends Fragment{
 	
 	//关注按钮
 	private Button attentionBtn;
+	
+	private LinearLayout registrationRecordLayout;
 
 	
     private ListView registrationListv;   
@@ -60,6 +64,8 @@ public class PersonalFragment extends Fragment{
 		collectionBtn = (Button) view.findViewById(R.id.personal_collection_btn);
 		attentionBtn = (Button) view.findViewById(R.id.personal_attention_btn);
 		
+		registrationRecordLayout = (LinearLayout) view.findViewById(R.id.registration_record_layout);
+		
 		collectionBtn.setOnClickListener(new OnClickListener()
 		{
 			public void onClick(View v) 
@@ -80,18 +86,29 @@ public class PersonalFragment extends Fragment{
 			}
 		});
 		
+		registrationRecordLayout.setOnClickListener(new OnClickListener() 
+		{
+			public void onClick(View arg0) 
+			{
+				Intent intent = new Intent();
+				intent.setClass(view.getContext(), PersonalRegistrationDetails.class);
+				startActivity(intent);
+			}
+		});
+		
 		registrationListv =  (ListView) view.findViewById(R.id.person_center_registration_listv);
 		registrationListItem = getRegitrationListItemItems();   
 		registrationListAdapter = new PersonalCenterRegistrationRecordListViewAdapter(view.getContext(), registrationListItem); //创建适配器   
 	
 		registrationListv.setOnItemClickListener(new OnItemClickListener()
-	        {
-				public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+        {
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 						long arg3)
-				{
-					 //
+			{
+					Intent intent = new Intent();
+					intent.setClass(view.getContext(), PersonalRegistrationDetails.class);
+					startActivity(intent);
 				}
-	        	
 			});
 		
 		registrationListv.setAdapter(registrationListAdapter);
@@ -119,7 +136,7 @@ public class PersonalFragment extends Fragment{
 		title.setText("个人中心");
 		
 		Button rightBtn = (Button) view.findViewById(R.id.main_title_right);
-		rightBtn.setBackground(view.getResources().getDrawable(R.drawable.gray_riaht_btn));
+		rightBtn.setBackground(view.getResources().getDrawable(R.drawable.set_gear));
 		rightBtn.setOnClickListener(new OnClickListener()
 		{	
 			public void onClick(View arg0) 

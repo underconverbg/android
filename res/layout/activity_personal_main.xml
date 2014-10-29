@@ -12,6 +12,7 @@
         android:layout_height="wrap_content" />
 
     <LinearLayout
+        android:id="@+id/registration_record_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
                     android:background="@color/lightGrayColor"

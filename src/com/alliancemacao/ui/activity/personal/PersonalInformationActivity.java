@@ -10,6 +10,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.alliancemacao.ui.view.dialog.PhotographDialog;
@@ -19,11 +20,11 @@ import com.example.alliancemacao.R;
 
 public class PersonalInformationActivity extends Activity
 {
-	Button  ageBtn = null;
-	Button  nikeNameBtn = null;
+	LinearLayout  ageBtn = null;
+	LinearLayout  nikeNameBtn = null;
 	CircularImage headImage = null;
-	Button  modifyPwdBtn = null;
-	Button pushSetBtn = null;
+	LinearLayout  modifyPwdBtn = null;
+	LinearLayout pushSetBtn = null;
 
 	
 	protected void onCreate(Bundle savedInstanceState) 
@@ -32,11 +33,11 @@ public class PersonalInformationActivity extends Activity
 		setContentView(R.layout.activity_persional_infor);
 		initTitle();
 		
-		nikeNameBtn = (Button)findViewById(R.id.personal_nikename_btn);
-		ageBtn = (Button) findViewById(R.id.personal_age_btn);
+		nikeNameBtn = (LinearLayout)findViewById(R.id.personal_nikename_btn);
+		ageBtn = (LinearLayout) findViewById(R.id.personal_age_btn);
 		headImage = (CircularImage) findViewById(R.id.cover_user_photo);
-		modifyPwdBtn = (Button) findViewById(R.id.modify_pwd_btn);
-		pushSetBtn = (Button) findViewById(R.id.push_set_btn);
+		modifyPwdBtn = (LinearLayout) findViewById(R.id.modify_pwd_btn);
+		pushSetBtn = (LinearLayout) findViewById(R.id.push_set_btn);
 		
 		nikeNameBtn.setOnClickListener(new OnClickListener()
 		{
